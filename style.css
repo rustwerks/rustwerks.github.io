@@ -1,0 +1,80 @@
+.header {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  display: table-cell;
+  vertical-align: middle;
+  horizontal-align: middle;
+  background-image: url('images/hero.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: sans-serif;
+}
+
+.hero_text {
+  margin: auto;
+  text-align: center;
+  width: 80vw;
+  padding: 5vw;
+  font-family: fantasy;
+}
+
+.hero_text_heading {
+  text-align: center;
+  font-size: 12vw;
+  color: ivory;
+  font-family: fantasy;
+}
+
+.hero_text_body {
+  text-align: center;
+  padding-top: 1vw;
+  font-size: 3vw;
+  color: goldenrod;
+}
+
+.text_body {
+  text-align: left;
+  padding-top: 4vw;
+  font-size: 2vw;
+  color: ivory;
+}
+
+.contact {
+  text-align: left;
+  padding-top: 4vw;
+  font-size: 2vw;
+  color: ivory;
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero_text {
+    width: 80vw;
+  }
+
+  .hero_text_heading {
+    font-size: 12vw;
+  }
+
+  .hero_text_body {
+    font-size: 4vw;
+  }
+
+  .text_body {
+    font-size: 2vw;
+  }
+
+  .contact {
+    font-size: 2vw;
+  }
+}
