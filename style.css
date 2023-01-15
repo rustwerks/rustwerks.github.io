@@ -14,7 +14,7 @@
   background-image: url('images/hero.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero_text {
@@ -22,14 +22,14 @@
   text-align: center;
   width: 80vw;
   padding: 5vw;
-  font-family: fantasy;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero_text_heading {
   text-align: center;
   font-size: 12vw;
   color: ivory;
-  font-family: fantasy;
+  font-family: 'Special Elite', cursive;
 }
 
 .hero_text_body {
